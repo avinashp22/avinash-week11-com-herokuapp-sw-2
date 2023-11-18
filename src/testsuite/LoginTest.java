@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class LoginTest extends BaseTest {
-    String baseURL = "     "; // set base url
+    String baseURL = "http://the-internet.herokuapp.com/login"; // set base url
 
     @Before
     public void setUP(){openBrowser(baseURL);}
