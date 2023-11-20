@@ -1,3 +1,9 @@
+/**
+ *1. Create the package ‘browserfactory’ and create the class with the name ‘BaseTest’ inside the
+ * ‘browserfactory’ package. And write the browser setup code inside the class ‘Base Test’.
+ */
+
+
 package browserfactory;
 
 import org.openqa.selenium.WebDriver;

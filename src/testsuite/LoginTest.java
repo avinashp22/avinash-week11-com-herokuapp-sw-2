@@ -1,3 +1,25 @@
+/**
+ *2. Create the package ‘testsuite’ and create the following class inside the ‘testsuite’ package.
+ * 1. LoginTest
+ * 3. Write down the following test into ‘LoginTest’ class
+ * 1. userSholdLoginSuccessfullyWithValidCredentials * Enter “tomsmith” username
+ * * Enter “SuperSecretPassword!” password
+ * * Click on ‘LOGIN’ button
+ * * Verify the text “Secure Area”
+ * 2. verifyTheUsernameErrorMessage
+ * * Enter “tomsmith1” username
+ * * Enter “SuperSecretPassword!” password
+ * * Click on ‘LOGIN’ button
+ * * Verify the error message “Your username is invalid!”
+ * 3. verifyThePasswordErrorMessage
+ * * Enter “tomsmith” username
+ * * Enter “SuperSecretPassword” password
+ * * Click on ‘LOGIN’ button
+ * * Verify the error message “Your password is invalid!”
+ *
+ */
+
+
 package testsuite;
 
 import browserfactory.BaseTest;
